@@ -1,10 +1,11 @@
 # chucknorris
 
 go run ./...
+
 go test ./... -v
 
 
-Objectives 
+## Objectives 
 The encoding principle is simple. The input message consists of ASCII characters (7-bit). You
 need to transform the text into the sequence of 0 and 1 and use the Chuck Norris technique. The encoded
 output message consists of blocks of 0. A block is separated from another block by a space.
@@ -30,24 +31,30 @@ In this stage, your program should:
 1. Read a string from a console. The input contains a single line.
 2. Print The result: line, followed by a line with an encoded message.
 
-Examples 
+## Examples 
 The greater-than symbol followed by a space (> ) represents the user input. Note that it’s not
 part of the input.
 
-Example 1:
+### Example 1:
 Input string:
-> C
+ > C
+
 The result:
+
 0 0 00 0000 0 00
 
-Example 2:
+### Example 2:
 Input string:
-> CC
+ > CC
+
 The result:
+
 0 0 00 0000 0 000 00 0000 0 00
 
-Example 3:
+### Example 3:
 Input string:
-> Hi <3
+ > Hi <3
+
 The result:
+
 0 0 00 00 0 0 00 000 0 00 00 0 0 0 00 00 0 0 00 0 0 0 00 000000 0 0000 00 000 0 00 00 00 0 00
